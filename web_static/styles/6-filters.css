@@ -24,8 +24,8 @@ section.filters button:hover {
 }
 
 /* location and amenities section */
-.locations,
-.amenities {
+section div.locations,
+section div.amenities {
 	height: 100%;
 	width: 25%;
 	float: left;
@@ -59,7 +59,7 @@ section.filters button:hover {
 
 .popover li {
 	list-style-type: none;
-	margin: 10px 0 10px 0;
+	margin: 10px 0 10px -20px;
 	text-align: left;
 }
 

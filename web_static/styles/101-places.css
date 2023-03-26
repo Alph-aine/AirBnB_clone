@@ -1,0 +1,176 @@
+/** @format */
+
+.places {
+	text-align: center;
+}
+.places h1 {
+	text-align: left;
+	font-size: 30px;
+}
+.places article {
+	width: 390px;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ff5a5f;
+	border-radius: 4px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	vertical-align: top;
+	position: relative;
+	min-height: 250px;
+}
+.places article h2 {
+	margin-top: 5px;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* details of place */
+.price_by_night {
+	color: #ff5a5f;
+	border: 4px solid #ff5a5f;
+	border-radius: 50%;
+	min-width: 60px;
+	height: 60px;
+	float: right;
+	font-size: 30px;
+	text-align: center;
+	position: absolute;
+	line-height: 60px;
+	top: 10px;
+	right: 20px;
+}
+.information {
+	height: 80px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	display: flex;
+	align-items: center;
+}
+
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+	width: 100px;
+	height: 100%;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 100%;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	font-weight: bold;
+	background-position: 50% 5px;
+}
+
+/* this segment is to include background image and align text directly under the images */
+.max_guest::before {
+	content: '';
+	display: block;
+	background-image: url(../images/icon_guest.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+}
+
+.number_rooms::before {
+	content: '';
+	display: block;
+	background-image: url(../images/icon_bed.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+}
+
+.number_bathrooms::before {
+	content: '';
+	display: block;
+	background-image: url(../images/icon_bath.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+}
+
+/* style for user and description */
+.user {
+	text-align: left;
+	padding-top: 10px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.description {
+	text-align: justify;
+	font-size: 16px;
+	margin-top: 10px;
+	font-weight: 500;
+	padding-top: 10px;
+}
+
+article div.amenities {
+	margin-top: 40px;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+article div.amenities h2 {
+	font-size: 16px;
+	border-bottom: 1px solid #dddddd;
+	text-align: left;
+	padding-bottom: 10px;
+}
+article div.amenities li,
+article div.reviews li {
+	list-style-type: none;
+}
+
+article div.reviews {
+	width: 100%;
+	text-align: left;
+}
+
+article div.reviews h2 {
+	font-size: 16px;
+	text-align: left;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 10px;
+}
+article div.reviews p {
+	font-size: 12px;
+}
+article div.reviews h3 {
+	font-size: 14px;
+}
+
+.tv {
+	background-image: url(../images/icon_tv.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px 20px;
+	padding-left: 35px;
+}
+
+.wifi {
+	background-image: url(../images/icon_wifi.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px 20px;
+	padding-left: 35px;
+}
+
+.pet {
+	background-image: url(../images/icon_pets.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px 20px;
+	padding-left: 35px;
+}
+article ul {
+	padding: 0;
+}
